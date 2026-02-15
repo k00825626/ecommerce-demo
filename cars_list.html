@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保存済み車両一覧</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+        body { font-family: 'Noto Sans JP', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen p-8">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8 text-gray-800 border-b-2 border-blue-500 pb-2">保存済み車両一覧</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- WRX S4 STI スポーツR EX (AU6428748099) -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex flex-col border-t-4 border-red-600">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-slate-800">スバル WRX S4 2.4 STI スポーツR EX 4WD</h2>
+                    <p class="text-red-600 font-bold text-2xl mb-4">279.4<span class="text-sm">万円</span></p>
+                    <div class="space-y-1 mb-4 text-sm text-gray-600 border-t pt-3">
+                        <p><span class="font-semibold text-gray-400">年式:</span> 2022 (R04) 年</p>
+                        <p><span class="font-semibold text-gray-400">走行距離:</span> 5.0万km</p>
+                    </div>
+                    <div class="flex flex-col gap-3 mt-4">
+                        <a href="carsensor_subaru_sti.html" class="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition text-sm font-bold">查看车辆详情</a>
+                        <a href="carsensor_subaru_sti_report.html" class="w-full bg-green-50 text-green-700 border border-green-200 text-center py-2 rounded-lg hover:bg-green-100 transition text-sm font-bold">查看品质评价书</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WRX S4 GT-H EX (AU6765770850) -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex flex-col border-t-4 border-blue-600">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-slate-800">スバル WRX S4 2.4 GT-H EX 4WD</h2>
+                    <p class="text-red-600 font-bold text-2xl mb-4">371.9<span class="text-sm">万円</span></p>
+                    <div class="space-y-1 mb-4 text-sm text-gray-600 border-t pt-3">
+                        <p><span class="font-semibold text-gray-400">年式:</span> 2024 (R06) 年</p>
+                        <p><span class="font-semibold text-gray-400">走行距離:</span> 0.4万km</p>
+                    </div>
+                    <div class="flex flex-col gap-3 mt-4">
+                        <a href="carsensor_subaru_gth.html" class="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition text-sm font-bold">查看车辆详情</a>
+                        <a href="carsensor_subaru_gth_report.html" class="w-full bg-green-50 text-green-700 border border-green-200 text-center py-2 rounded-lg hover:bg-green-100 transition text-sm font-bold">查看品质评价书</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 之前的 Audi -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex flex-col border-t-4 border-blue-600">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-slate-800">スバル WRX S4 2.4 GT-H EX 4WD</h2>
+                    <p class="text-red-600 font-bold text-2xl mb-4">225.9<span class="text-sm">万円</span></p>
+                    <div class="space-y-1 mb-4 text-sm text-gray-600 border-t pt-3">
+                        <p><span class="font-semibold text-gray-400">年式:</span> 2022 (R04) 年</p>
+                        <p><span class="font-semibold text-gray-400">走行距離:</span> 9.4万km</p>
+                    </div>
+                    <div class="flex flex-col gap-3 mt-4">
+                        <a href="carsensor_audi.html" class="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition text-sm font-bold">查看车辆详情</a>
+                        <a href="carsensor_audi_report.html" class="w-full bg-green-50 text-green-700 border border-green-200 text-center py-2 rounded-lg hover:bg-green-100 transition text-sm font-bold">查看品质评价书</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 新增: WRX S4 GT-H EX (AU6793723129) -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition flex flex-col border-t-4 border-silver-400">
+                <div class="p-6 flex-grow">
+                    <h2 class="text-xl font-bold mb-1 text-slate-800">スバル WRX S4 2.4 GT-H EX 4WD</h2>
+                    <p class="text-red-600 font-bold text-2xl mb-4">304.6<span class="text-sm">万円</span></p>
+                    <div class="space-y-1 mb-4 text-sm text-gray-600 border-t pt-3">
+                        <p><span class="font-semibold text-gray-400">年式:</span> 2022 (R04) 年</p>
+                        <p><span class="font-semibold text-gray-400">走行距離:</span> 2.5万km</p>
+                    </div>
+                    <div class="flex flex-col gap-3 mt-4">
+                        <a href="AU6793723129.html" class="w-full bg-blue-600 text-white text-center py-2 rounded-lg hover:bg-blue-700 transition text-sm font-bold">查看车辆详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center">
+            <a href="index.html" class="text-blue-500 hover:underline">← 返回跨境电商主页</a>
+        </div>
+    </div>
+</body>
+</html>
